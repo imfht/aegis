@@ -8,11 +8,11 @@
 
 1.  登录[云盾服务器安全（安骑士）管理控制台](https://yundun.console.aliyun.com/?p=aqs#/)，单击**设置**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154873390035654_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035654_zh-CN.png)
 
 2.  单击**安装/卸载**进入安装安骑士Agent页面。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154873390035655_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035655_zh-CN.png)
 
 3.  根据您的服务器操作系统选择安装步骤，安装最新版本的安骑士Agent插件。
     -   **Windows系统** 
@@ -23,16 +23,16 @@
 
             您可在云盾安装安骑士页面找到您的安装验证Key。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154873390035656_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035656_zh-CN.png)
 
             **说明：** 
 
             -   安装验证Key将用于关联您的阿里云账号，在云盾安骑士管理控制台登录您的阿里云账号即可保护您的服务器安全。
-            -   每个安装验证KEY有效期为1小时，超过该时间将无法正确安装安骑士Agent插件。安装插件前请及时刷新安装验证KEY。
+            -   每个安装验证Key有效期为1小时，超过该时间将无法正确安装安骑士Agent插件。安装插件前请及时刷新安装验证Key。
         5.  完成安装。
         6.  单击**立即查看**打开资产列表，查看资产在线状态。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154873390035658_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035658_zh-CN.png)
 
     -   **Linux系统** 
 
