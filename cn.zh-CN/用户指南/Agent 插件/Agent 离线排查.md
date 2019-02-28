@@ -6,20 +6,20 @@
 
 安骑士控制台**资产列表**页面中Agent处于**离线**状态。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155106464435753_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155107742535753_zh-CN.png)
 
 ## 问题排查 {#section_pc1_pqz_ggb .section}
 
 建议按照以下步骤对Agent离线的问题进行排查：
 
-1.  登录您的服务器查看安骑士 Agent 相关进程是否正常运行。如果Agent 相关进程没有正常运行，建议重启您的服务器，或者[重新安装安骑士Agent](cn.zh-CN/用户指南/Agent 插件/安装Agent.md#)。
+1.  登录您的服务器查看安骑士 Agent 相关进程是否正常运行。如果Agent 相关进程没有正常运行，建议重启您的服务器，或者[重新安装安骑士Agent](intl.zh-CN/用户指南/Agent 插件/安装Agent.md#)。
     -   **Windows系统**：在任务管理器中查看进程**AliYunDun**和**AliYunDunUpdate**是否正常运行。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155106464435704_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155107742535704_zh-CN.png)
 
     -   **Linux系统**：执行命令`ps aux | grep AliYunDun`命令查看进程**AliYunDun**和**AliYunDunUpdate**是否正常运行。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155106464435736_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155107742535736_zh-CN.png)
 
 2.  如果首次安装安骑士 Agent 后显示安骑士状态不在线，可参考以下方式重新启动安骑士 Agent：
 
@@ -33,7 +33,7 @@
 
     **说明：** 购买ECS实例时勾选**安全加固**选项即可自动安装安骑士Agent。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155106464435748_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81988/155107742535748_zh-CN.png)
 
 3.  检查您的服务器网络连接是否正常。
 
