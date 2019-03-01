@@ -1,4 +1,4 @@
-# DescribeSuspEvents {#doc_api_1030372 .reference}
+# DescribeSuspEvents {#doc_api_1032287 .reference}
 
 查询异常事件列表。
 
@@ -160,17 +160,7 @@
 
 ``` {#request_demo}
 
-/?AlarmUniqueInfo=8df914418f4211fbf756efe7a6f40cbc
-&CurrentPage=1
-&Dealed=Y
-&From=sas
-&Lang=zh
-&Levels=serious,suspicious,remind
-&Name=挖矿
-&PageSize=10
-&ParentEventTypes=网站后门
-&Remark=8.8.8.8
-&SourceIp=2.2.2.2
+http(s)://[Endpoint]/?Action=DescribeSuspEvents
 &<公共请求参数>
 
 ```
