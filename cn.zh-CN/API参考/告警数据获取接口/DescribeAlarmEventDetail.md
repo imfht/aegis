@@ -1,4 +1,4 @@
-# DescribeAlarmEventDetail {#doc_api_1031556 .reference}
+# DescribeAlarmEventDetail {#doc_api_1032284 .reference}
 
 获取告警事件的详细信息。
 
@@ -124,11 +124,9 @@
 
 ``` {#request_demo}
 
-/?Action=DescribeAlarmEventDetail
+http(s)://[Endpoint]/?Action=DescribeAlarmEventDetail
 &AlarmUniqueInfo=8df914418f4211fbf756efe7a6f40cbc
-&From=sas
-&Lang=zh
-&SourceIp=1.1.1.1
+&From=aqs
 &<公共请求参数>
 
 ```
