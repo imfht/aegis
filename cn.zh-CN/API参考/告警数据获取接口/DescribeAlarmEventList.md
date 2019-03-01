@@ -1,4 +1,4 @@
-# DescribeAlarmEventList {#doc_api_1030334 .reference}
+# DescribeAlarmEventList {#doc_api_1032286 .reference}
 
 获取态势感知安全告警模块的安全事件的列表。
 
@@ -114,6 +114,12 @@
 |└GmtModified|Long|1543740301000|告警事件修改时间，表示同一告警事件再次上报的时间。
 
  |
+|└HasTraceInfo|Boolean|true|告警事件是否有溯源数据。
+
+ -   true：有溯源数据
+-   false：没有溯源数据
+
+ |
 |└InstanceName|String|测试服务器|关联实例的名称。
 
  |
@@ -155,7 +161,8 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?CurrentPage=1
+http(s)://[Endpoint]/?Action=DescribeAlarmEventList
+&CurrentPage=1
 &From=aqs
 &PageSize=20
 &<公共请求参数>
