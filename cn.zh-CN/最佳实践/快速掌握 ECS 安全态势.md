@@ -2,19 +2,21 @@
 
 安骑士是一款经受200万+主机稳定性考验的主机安全加固产品，拥有自动化实时入侵威胁检测、病毒查杀、漏洞智能修复、基线一键核查等功能，是构建主机安全防线的统一管理平台。
 
-安骑士基础版功能详情参见[功能特性](../../../../../intl.zh-CN/产品简介/功能列表.md#)。
+安骑士企业版和基础版功能详情参见[功能特性](../../../../../cn.zh-CN/产品简介/功能列表.md#)。
 
-安骑士功能优势参见[产品优势](../../../../../intl.zh-CN/产品简介/产品优势.md#)。
+安骑士功能优势参见[产品优势](../../../../../cn.zh-CN/产品简介/产品优势.md#)。
 
-您可以打开ECS控制台概览页面，单击**安全概览**模块下面的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435756_zh-CN.png)跳转到安骑士总览页面，查看ECS的安全详情。
+安骑士企业版提供病毒自动隔离服务，可对目前部分主流勒索病毒（如WannaCry和Globelmposter）、DDOS木马（如XorDDos和BillGates）进行主动防护和主动隔离。后续将陆续支持更多病毒类型，建议您启用该功能，加固主机安全防线。详见安骑士[病毒自动隔离](../../../../../cn.zh-CN/用户指南/设置/安全配置/病毒自动隔离.md#)。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435757_zh-CN.png)
+您可以打开ECS控制台概览页面，单击**安全概览**模块下面的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155203192835756_zh-CN.png)跳转到安骑士总览页面，查看ECS的安全详情。
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155203192835757_zh-CN.png)
 
 跳转到安骑士控制台总览页后，您可在总览页面查看待处理的告警事件数量及其紧急程度、检测到的告警事件总数、已处理事件的数量等信息。
 
-详细信息参见[控制台总览](../../../../../intl.zh-CN/用户指南/控制台总览.md#)。
+详细信息参见[控制台总览](../../../../../cn.zh-CN/用户指南/控制台总览.md#)。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435758_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155203192835758_zh-CN.png)
 
 单击待处理告警事件可进入对应的功能进行快速处理：
 
@@ -24,17 +26,17 @@
 -   网站后门
 -   主机异常
 
-详细信息参见[安骑士用户指南](../../../../../intl.zh-CN/用户指南/控制台总览.md#)。
+详细信息参见[安骑士用户指南](../../../../../cn.zh-CN/用户指南/控制台总览.md#)。
 
 ## 查看ECS实例安全详情 { .section}
 
-您可以打开ECS控制台实例页面，单击**实例列表**中的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435759_zh-CN.png)跳转到安骑士控制台资产列表页面，查看单个ECS实例的安全详情。
+您可以打开ECS控制台实例页面，单击**实例列表**中的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155203192835759_zh-CN.png)跳转到安骑士控制台资产列表页面，查看单个ECS实例的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435760_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155203192835760_zh-CN.png)
 
 跳转到安骑士控制台后，在资产列表页面查看单个ECS实例的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435761_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155203192835761_zh-CN.png)
 
 ECS实例的安全详情包含：
 
@@ -71,5 +73,5 @@ ECS实例的安全详情包含：
     对漏洞管理、基线检查和登录安全设置进行配置。
 
 
-详细信息参见[安骑士用户指南](../../../../../intl.zh-CN/用户指南/控制台总览.md#)。
+详细信息参见[安骑士用户指南](../../../../../cn.zh-CN/用户指南/控制台总览.md#)。
 
