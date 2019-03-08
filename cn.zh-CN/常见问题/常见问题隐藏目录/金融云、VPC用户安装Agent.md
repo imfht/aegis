@@ -8,11 +8,11 @@
 
 1.  登录[云盾服务器安全（安骑士）管理控制台](https://yundun.console.aliyun.com/?p=aqs#/)，单击**设置**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035654_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155202984935654_zh-CN.png)
 
 2.  单击**安装/卸载**进入安装安骑士Agent页面。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035655_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155202984935655_zh-CN.png)
 
 3.  根据您的服务器操作系统选择安装步骤，安装最新版本的安骑士Agent插件。
     -   **Windows系统** 
@@ -23,7 +23,7 @@
 
             您可在云盾安装安骑士页面找到您的安装验证Key。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035656_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155202984935656_zh-CN.png)
 
             **说明：** 
 
@@ -32,7 +32,7 @@
         5.  完成安装。
         6.  单击**立即查看**打开资产列表，查看资产在线状态。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/154874102035658_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155202984935658_zh-CN.png)
 
     -   **Linux系统** 
 
@@ -52,7 +52,7 @@
 
 在您成功安装安骑士Agent后，建议您参考以下步骤进行验证：
 
-1.  检查您的服务器上安骑士Agent的AliYunDun和AliYunDunUpdate这两个进程是否正常运行。关于安骑士Agent进程说明，请参考[Agent说明](../../../../../cn.zh-CN/用户指南/Agent 插件/什么是安骑士Agent插件.md#)。
+1.  检查您的服务器上安骑士Agent的AliYunDun和AliYunDunUpdate这两个进程是否正常运行。关于安骑士Agent进程说明，请参考[什么是安骑士Agent插件](../../../../../cn.zh-CN/用户指南/Agent 插件/什么是安骑士Agent插件.md#)。
 2.  在您的服务器上，执行以下telnet命令检查您的服务器是否能正常连通安骑士服务器。
 
     **说明：** 确保以下两个服务器都能连通。
@@ -60,5 +60,5 @@
     -   `telnet jsrv3.aegis.aliyun.com 80` 
     -   `telnet update3.aegis.aliyun.com 80` 
 
-如果安骑士Agent安装验证失败，请参考[Agent离线排查](../../../../../cn.zh-CN/用户指南/Agent 插件/Agent 离线排查.md#)。
+如果安骑士Agent安装验证失败，请参考[Agent 离线排查](../../../../../cn.zh-CN/用户指南/Agent 插件/Agent 离线排查.md#)。
 
