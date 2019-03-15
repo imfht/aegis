@@ -8,11 +8,11 @@
 
 1.  登录[云盾服务器安全（安骑士）管理控制台](https://account.alibabacloud.com/login/login.htm)，单击**设置**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263316435654_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263357735654_zh-CN.png)
 
 2.  单击**安装/卸载**进入安装安骑士Agent页面。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263316435655_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263357835655_zh-CN.png)
 
 3.  根据您的服务器操作系统选择安装步骤，安装最新版本的安骑士Agent插件。
     -   **Windows系统** 
@@ -23,7 +23,7 @@
 
             您可在云盾安装安骑士页面找到您的安装验证Key。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263316435656_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263357835656_zh-CN.png)
 
             **说明：** 
 
@@ -32,7 +32,7 @@
         5.  完成安装。
         6.  单击**立即查看**打开资产列表，查看资产在线状态。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263316435658_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82028/155263357835658_zh-CN.png)
 
     -   **Linux系统** 
 
