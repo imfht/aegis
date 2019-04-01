@@ -6,14 +6,14 @@
 
 若您的服务器安骑士 Agent 显示**离线**状态，请参照本文档描述的内容安装安骑士 Agent 插件。
 
-您可以在安骑士控制台资产列表页面查看您所有服务器的Agent 在线状态，或在**设置** \> **安装/卸载**页面查看Agent插件已**离线**的所有资产情况。
+您可以在安骑士控制台资产列表页面查看您所有服务器的Agent 在线状态，或在 **设置** \> **安装/卸载** 页面查看Agent插件已**离线**的所有资产情况。
 
-如果出现离线情况请参考[Agent 离线排查](cn.zh-CN/用户指南/Agent 插件/Agent 离线排查.md#)。
+如果出现离线情况请参考[Agent 离线排查](intl.zh-CN/用户指南/Agent 插件/Agent 离线排查.md#)。
 
- **安骑士 Agent 插件文件目录**
+**安骑士 Agent 插件文件目录** 
 
--    **Windows**： C:\\Program Files \(x86\)\\Alibaba\\Aegis
--    **Linux**： /usr/local/aegis
+-   **Windows**： C:\\Program Files \(x86\)\\Alibaba\\Aegis
+-   **Linux**： /usr/local/aegis
 
 ## 前提条件 {#section_n14_rlh_ghb .section}
 
@@ -34,20 +34,20 @@
 安骑士支持对阿里云服务器一键安装Agent，非阿里云服务器需执行手动安装。
 
 1.  登录[云盾安骑士管理控制台](https://yundunnext.console.aliyun.com/?p=aqs)。
-2.  单击**设置** \> **安装/卸载**。
+2.  单击 **设置** \> **安装/卸载** 。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155408226442069_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742069_zh-CN.png)
 
 3.  单击**操作**栏的**安装客户端**对单个服务器安装Agent或勾选多台服务器名称后单击左下角**一键安装**对多台服务器执行批量安装Agent。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155408226442070_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742070_zh-CN.png)
 
 
 安骑士 Agent 插件安装完成约五分钟后，您即可在云盾安骑士管理控制台中查看您服务器的在线情况：阿里云服务器将会从**离线**变成**在线**。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155408226442071_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742071_zh-CN.png)
 
-一键安装后如果客户端状态显示为**安装失败**并提示**未安装云助手**，请先安装[云助手](../../../../../cn.zh-CN/部署与运维/云助手/云助手概述.md#)后再重试。
+一键安装后如果客户端状态显示为**安装失败**并提示**未安装云助手**，请先安装[云助手](../../../../../intl.zh-CN/部署与运维/云助手/云助手概述.md#)后再重试。
 
 ## 手动安装Agent {#section_qxq_hkv_ghb .section}
 
@@ -55,21 +55,21 @@
 
 -   您的服务器为非阿里云服务器
 -   网络类型为经典网络
--   不在支持的区域内
--   服务器操作系统为Redhat、FreeBSD、Coreos
--   未安装[云助手](../../../../../cn.zh-CN/部署与运维/云助手/云助手概述.md#)
+-   ECS不在[支持的区域](#table_ec1_2lh_ghb)内
+-   服务器操作系统为Windows 2008、Redhat、FreeBSD、Coreos
+-   未安装[云助手](../../../../../intl.zh-CN/部署与运维/云助手/云助手概述.md#)
 -   服务器未开启
 
 1.  登录[云盾安骑士管理控制台](https://yundunnext.console.aliyun.com/?p=aqs)。
-2.  单击**设置** \> **安装/卸载**。
+2.  单击 **设置** \> **安装/卸载** 。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155408226442069_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742069_zh-CN.png)
 
 3.  根据您的服务器操作系统选择安装步骤，获取最新版本安骑士 Agent 插件。
 
-    ![安装安骑士Agent页面](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/28457/cn_zh/1502437441967/image2.png)
+    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/28457/cn_zh/1502437441967/image2.png)
 
-    -   **Windows 系统**
+    -   **Windows 系统** 
         1.  在安装安骑士Agent页面，单击**点击下载**下载最新版本安骑士Agent安装文件到本地计算机。
         2.  将安装文件上传至您的Windows服务器，例如通过FTP工具将安装文件上传到服务器。
         3.  在您的Windows服务器上以管理员权限运行安骑士Agent插件安装程序。
@@ -85,9 +85,9 @@
 
         5.  完成安装后，单击**立即查看**打开资产列表，查看资产在线状态。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155408226438980_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177738980_zh-CN.png)
 
-    -   **Linux 系统**
+    -   **Linux 系统** 
 
         1.  根据您的实际情况，在安装安骑士 Agent 页面选择 **阿里云服务器** 或 **非阿里云服务器**。
         2.  以管理员身份登录您的 Linux 服务器。
@@ -108,26 +108,27 @@
 
     **说明：** 确保以下 jsrv 和 update 两类服务器域名各至少有一个服务器能连通。
 
-    -    `telnet jsrv.aegis.aliyun.com 80` 
-    -    `telnet jsrv2.aegis.aliyun.com 80` 
-    -    `telnet jsrv3.aegis.aliyun.com 80` 
-    -    `telnet update.aegis.aliyun.com 80` 
-    -    `telnet update2.aegis.aliyun.com 80` 
-    -    `telnet update3.aegis.aliyun.com 80` 
+    -   `telnet jsrv.aegis.aliyun.com 80`
+    -   `telnet jsrv2.aegis.aliyun.com 80`
+    -   `telnet jsrv3.aegis.aliyun.com 80`
+    -   `telnet update.aegis.aliyun.com 80`
+    -   `telnet update2.aegis.aliyun.com 80`
+    -   `telnet update3.aegis.aliyun.com 80`
 
-如果安骑士 Agent 安装验证失败，请参考[Agent 离线排查](cn.zh-CN/用户指南/Agent 插件/Agent 离线排查.md#) 。
+如果安骑士 Agent 安装验证失败，请参考[Agent 离线排查](intl.zh-CN/用户指南/Agent 插件/Agent 离线排查.md#) 。
 
 ## 一键安装功能支持的地区 {#section_frg_dlh_ghb .section}
 
 |支持的地区|地区名称|
 |-----|----|
-|亚太|华东1（杭州）|
-|华东2（上海）|
-|华北1（青岛）|
-|华北2（北京）|
-|华北3（张家口）|
-|华北5（呼和浩特）|
-|华南1（深圳）|
+|亚太|华东 1（杭州）|
+|华东 2（上海）|
+|华东 2 金融云|
+|华北 1（青岛）|
+|华北 2（北京）|
+|华北 3（张家口）|
+|华北 5（呼和浩特）|
+|华南 1（深圳）|
 |香港|
 |新加坡|
 |澳大利亚（悉尼）|
