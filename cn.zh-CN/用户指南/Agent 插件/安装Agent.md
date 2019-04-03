@@ -10,11 +10,6 @@
 
 如果出现离线情况请参考[Agent 离线排查](intl.zh-CN/用户指南/Agent 插件/Agent 离线排查.md#)。
 
-**安骑士 Agent 插件文件目录** 
-
--   **Windows**： C:\\Program Files \(x86\)\\Alibaba\\Aegis
--   **Linux**： /usr/local/aegis
-
 ## 前提条件 {#section_n14_rlh_ghb .section}
 
 安装Agent前请确认您安装安骑士服务器的环境：
@@ -36,16 +31,16 @@
 1.  登录[云盾安骑士管理控制台](https://yundunnext.console.aliyun.com/?p=aqs)。
 2.  单击 **设置** \> **安装/卸载** 。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742069_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289442069_zh-CN.png)
 
 3.  单击**操作**栏的**安装客户端**对单个服务器安装Agent或勾选多台服务器名称后单击左下角**一键安装**对多台服务器执行批量安装Agent。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742070_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289442070_zh-CN.png)
 
 
 安骑士 Agent 插件安装完成约五分钟后，您即可在云盾安骑士管理控制台中查看您服务器的在线情况：阿里云服务器将会从**离线**变成**在线**。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742071_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289542071_zh-CN.png)
 
 一键安装后如果客户端状态显示为**安装失败**并提示**未安装云助手**，请先安装[云助手](../../../../../intl.zh-CN/部署与运维/云助手/云助手概述.md#)后再重试。
 
@@ -63,7 +58,7 @@
 1.  登录[云盾安骑士管理控制台](https://yundunnext.console.aliyun.com/?p=aqs)。
 2.  单击 **设置** \> **安装/卸载** 。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177742069_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289442069_zh-CN.png)
 
 3.  根据您的服务器操作系统选择安装步骤，获取最新版本安骑士 Agent 插件。
 
@@ -85,7 +80,7 @@
 
         5.  完成安装后，单击**立即查看**打开资产列表，查看资产在线状态。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155410177738980_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289538980_zh-CN.png)
 
     -   **Linux 系统** 
 
@@ -144,10 +139,15 @@
 
 ## 注意事项 { .section}
 
-非阿里云服务器必须通过安装程序（Windows）或脚本命令（Linux）方式安装安骑士 Agent 插件。
+非阿里云服务器必须通过安装程序（Windows）或脚本命令（Linux）方式安装安骑士Agent插件。
 
-如果您的非阿里云服务器通过以下方式安装安骑士 Agent 插件，需要删除安骑士 Agent 插件目录后，按照上述手动安装步骤重新安装安骑士 Agent 插件。
+如果您的非阿里云服务器通过以下方式安装安骑士Agent插件，需要删除安骑士[Agent插件目录](#ul_rzy_pgn_hhb)后，按照上述手动安装步骤重新安装安骑士Agent插件。
 
--   通过已安装安骑士 Agent 插件的镜像批量安装服务器。
--   从已安装安骑士 Agent 插件的服务器上直接复制安骑士 Agent 插件文件。
+-   通过已安装安骑士Agent插件的镜像批量安装服务器。
+-   从已安装安骑士Agent插件的服务器上直接复制安骑士Agent插件文件。
+
+安骑士 Agent 插件文件目录：
+
+-   **Windows**：C:\\Program Files \(x86\)\\Alibaba\\Aegis
+-   **Linux**：/usr/local/aegis
 
