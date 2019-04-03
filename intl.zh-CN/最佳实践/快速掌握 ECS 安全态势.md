@@ -6,35 +6,28 @@
 
 安骑士功能优势参见[产品优势](../../../../../intl.zh-CN/产品简介/产品优势.md#)。
 
-您可以打开ECS控制台概览页面，单击**安全概览**模块下面的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435756_zh-CN.png)跳转到安骑士总览页面，查看ECS的安全详情。
+您可以打开ECS控制台概览页面，单击**安全概览**模块下面的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535756_zh-CN.png)跳转到安骑士总览页面，查看ECS的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435757_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535757_zh-CN.png)
 
 跳转到安骑士控制台总览页后，您可在总览页面查看待处理的告警事件数量及其紧急程度、检测到的告警事件总数、已处理事件的数量等信息。
 
-详细信息参见[控制台总览](../../../../../intl.zh-CN/用户指南/控制台总览.md#)。
-
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435758_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535758_zh-CN.png)
 
 单击待处理告警事件可进入对应的功能进行快速处理：
 
--   漏洞待处理
--   基线配置不当
 -   异常登录
 -   网站后门
--   主机异常
-
-详细信息参见[安骑士用户指南](../../../../../intl.zh-CN/用户指南/控制台总览.md#)。
 
 ## 查看ECS实例安全详情 { .section}
 
-您可以打开ECS控制台实例页面，单击**实例列表**中的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435759_zh-CN.png)跳转到安骑士控制台资产列表页面，查看单个ECS实例的安全详情。
+您可以打开ECS控制台实例页面，单击**实例列表**中的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535759_zh-CN.png)跳转到安骑士控制台资产列表页面，查看单个ECS实例的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435760_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022635760_zh-CN.png)
 
 跳转到安骑士控制台后，在资产列表页面查看单个ECS实例的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155106703435761_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022635761_zh-CN.png)
 
 ECS实例的安全详情包含：
 
@@ -70,6 +63,4 @@ ECS实例的安全详情包含：
 
     对漏洞管理、基线检查和登录安全设置进行配置。
 
-
-详细信息参见[安骑士用户指南](../../../../../intl.zh-CN/用户指南/控制台总览.md#)。
 
