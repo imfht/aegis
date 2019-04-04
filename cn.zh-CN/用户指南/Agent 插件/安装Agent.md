@@ -15,7 +15,7 @@
 安装Agent前请确认您安装安骑士服务器的环境：
 
 -   阿里云服务器可直接安装Agent。
--   通过专线连接、内网通信的非阿里云服务器，需要修改服务器的DNS配置，指定以下安骑士服务端DNS解析地址：
+-   通过专线连接、内网通信的非阿里云服务器，需要修改服务器的DNS配置，指定以下任意一个安骑士服务端DNS解析地址：
 
     `106.11.248.209/106.11.248.51 jsrv.aegis.aliyun.com`
 
@@ -31,16 +31,16 @@
 1.  登录[云盾安骑士管理控制台](https://yundunnext.console.aliyun.com/?p=aqs)。
 2.  单击 **设置** \> **安装/卸载** 。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289442069_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155435829442069_zh-CN.png)
 
 3.  单击**操作**栏的**安装客户端**对单个服务器安装Agent或勾选多台服务器名称后单击左下角**一键安装**对多台服务器执行批量安装Agent。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289442070_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155435829442070_zh-CN.png)
 
 
 安骑士 Agent 插件安装完成约五分钟后，您即可在云盾安骑士管理控制台中查看您服务器的在线情况：阿里云服务器将会从**离线**变成**在线**。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289542071_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155435829442071_zh-CN.png)
 
 一键安装后如果客户端状态显示为**安装失败**并提示**未安装云助手**，请先安装[云助手](../../../../../intl.zh-CN/部署与运维/云助手/云助手概述.md#)后再重试。
 
@@ -58,7 +58,7 @@
 1.  登录[云盾安骑士管理控制台](https://yundunnext.console.aliyun.com/?p=aqs)。
 2.  单击 **设置** \> **安装/卸载** 。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289442069_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155435829442069_zh-CN.png)
 
 3.  根据您的服务器操作系统选择安装步骤，获取最新版本安骑士 Agent 插件。
 
@@ -80,7 +80,7 @@
 
         5.  完成安装后，单击**立即查看**打开资产列表，查看资产在线状态。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155426289538980_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/81987/155435829538980_zh-CN.png)
 
     -   **Linux 系统** 
 
