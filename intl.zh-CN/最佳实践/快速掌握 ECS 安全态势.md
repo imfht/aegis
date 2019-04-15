@@ -6,13 +6,13 @@
 
 安骑士功能优势参见[产品优势](../../../../../intl.zh-CN/产品简介/产品优势.md#)。
 
-您可以打开ECS控制台概览页面，单击**安全概览**模块下面的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535756_zh-CN.png)跳转到安骑士总览页面，查看ECS的安全详情。
+您可以打开ECS控制台概览页面，单击**安全概览**模块下面的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155531185335756_zh-CN.png)跳转到安骑士总览页面，查看ECS的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535757_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155531185335757_zh-CN.png)
 
 跳转到安骑士控制台总览页后，您可在总览页面查看待处理的告警事件数量及其紧急程度、检测到的告警事件总数、已处理事件的数量等信息。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535758_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155531185335758_zh-CN.png)
 
 单击待处理告警事件可进入对应的功能进行快速处理：
 
@@ -21,13 +21,13 @@
 
 ## 查看ECS实例安全详情 { .section}
 
-您可以打开ECS控制台实例页面，单击**实例列表**中的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022535759_zh-CN.png)跳转到安骑士控制台资产列表页面，查看单个ECS实例的安全详情。
+您可以打开ECS控制台实例页面，单击**实例列表**中的阿里云云盾图标![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155531185335759_zh-CN.png)跳转到安骑士控制台资产列表页面，查看单个ECS实例的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022635760_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155531185435760_zh-CN.png)
 
 跳转到安骑士控制台后，在资产列表页面查看单个ECS实例的安全详情。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155428022635761_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/82026/155531185435761_zh-CN.png)
 
 ECS实例的安全详情包含：
 
